@@ -3,6 +3,17 @@
 	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BabelMaker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -20,6 +31,11 @@
 			"Name": "AGRPRO",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c4f13f7fc2c048d8ad4985ecfbf4f6c6"
+		},
+		{
+			"Name": "GASCompanion",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d83c6f34c3fb4b7092dde195c37c7413"
 		}
 	]
 }
