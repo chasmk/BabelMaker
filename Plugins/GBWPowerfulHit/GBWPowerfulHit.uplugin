@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.3.3",
+	"FriendlyName": "GBWPowerfulHit",
+	"Description": "Advanced combat framework design. Deconstruct hit feedback. Create a sense of hit in the simplest way.",
+	"Category": "GBW",
+	"CreatedBy": "GBWGame",
+	"CreatedByURL": "",
+	"DocsURL": "https://www.wikiful.com/@GBWGame/gbwgame-wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/68a19cc3b574484ab65c96a4b8e8c135",
+	"SupportURL": "https://discord.gg/kB8wm4Mbb9",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GBWPowerfulHit",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWPowerfulHitEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
