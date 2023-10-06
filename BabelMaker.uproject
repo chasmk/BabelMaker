@@ -36,6 +36,11 @@
 			"Name": "GASCompanion",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d83c6f34c3fb4b7092dde195c37c7413"
+		},
+		{
+			"Name": "GBWPowerfulHit",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/68a19cc3b574484ab65c96a4b8e8c135"
 		}
 	]
 }
